@@ -40,6 +40,6 @@ project "glfw"
 		}
 
 		filter {
-			"system:windows", "configuration:Release"
+			"system:windows", "configurations:Release"
 		}
 			buildoptions "/MT"
